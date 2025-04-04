@@ -1,0 +1,44 @@
+name: course_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+# the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  carousel_slider: ^4.0.0
+  cached_network_image: ^3.1.0
+  video_player: ^2.2.18
+  
+  image_picker: ^0.8.4+3
+  provider: ^6.1.2
+
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^4.19.6
+  firebase_core: ^2.31.1
+  cloud_firestore: ^4.17.4
+  firebase_messaging: ^14.9.3
+  firebase_storage: ^11.7.6
+  firebase_in_app_messaging: ^0.7.5+6
+  firebase_app_installations: ^0.2.5+6
+  random_string: ^2.3.1
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  uses-material-design: true
